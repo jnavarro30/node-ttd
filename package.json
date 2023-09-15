@@ -4,7 +4,7 @@
   "description": "test driven development",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app",
+    "start": "nodemon index",
     "test": "jest --watch",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/jnavarro30/node-ttd#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "sequelize": "^6.33.0",
+    "sqlite3": "^5.1.6"
   },
   "devDependencies": {
     "eslint": "^8.49.0",
@@ -54,10 +56,12 @@
       "quotes": [
         "warn",
         "single"
-      ]
+      ],
+      "parser": "flow"
     }
   },
   "prettier": {
-    "singleQuote": true
+    "singleQuote": true,
+    "trailingComma": "es5"
   }
 }
