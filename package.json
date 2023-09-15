@@ -1,0 +1,27 @@
+{
+  "name": "ttd",
+  "version": "1.0.0",
+  "description": "test driven development",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnavarro30/node-ttd.git"
+  },
+  "author": "Jesse Navarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnavarro30/node-ttd/issues"
+  },
+  "homepage": "https://github.com/jnavarro30/node-ttd#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
